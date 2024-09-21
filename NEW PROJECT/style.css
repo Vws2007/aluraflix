@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+body {
+    overflow-x: hidden;
+    background-color: rgb(3, 0, 0);
+}
+@font-face {
+    font-family: 'racionais';
+    src: url('./fontes/CloisterBlack.ttf') format('opentype');
+    font-family: 'gotico';
+    src: url('./fontes/Seagram\ tfb.ttf') format('opentype');
+}
+h2 {
+    width: 270px;
+}
+header {
+    background-color: rgba(36, 34, 34, 0.589);
+    padding: 5px;
+    width: 940hz;
+    height: 40px;
+}
+.header  h1 {
+    width: 280px;
+}
+.content .conteudo {
+    display: inline-flex;
+}
+.content {
+    display: flexbox;
+    margin: 15px;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid transparent;
+    padding: 15px;
+    background-color: rgb(28, 28, 31);
+    width: 900px;
+}
+.textos {
+    display: flexbox;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(45, 41, 44);
+    width: 900px;
+}
+.content img { 
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.content h2 {
+    text-transform: capitalize;
+    margin: 5px;
+}
+header nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+.sidebar {
+    border-radius: 15px;
+    border: 1px solid black;
+    float: right;
+    display: flexbox;
+    width: 440px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(66, 63, 61, 0.711);
+}
+.sidebar h2 {
+    text-transform: capitalize;
+    margin: 5px;
+}
+.footer {
+    width: 940hz;
+    height: auto;
+    padding: 5px;
+    background-color: rgba(27, 28, 27, 0.781);
+}
+.logo {
+    text-align: right;
+}
+.foottree {
+    width: 240px;
+    margin-left: 30px;
+}
+header nav ul li a{
+    font-family: 'gotica';
+    margin-right: 10px;
+}
+.content img {
+    margin-top: 10px;
+    width: 579px;
+    height: 655px;
+}
+nav {
+    margin-top: -25px;
+    margin-right: 50px;
+    margin: 2.5px, 50px;
+    width: 540px;
+    float: right;
+}
+.textos h1 {
+    font-family: 'racionais';
+}
+.textos p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textos h1 {
+    margin-top: 15px;
+}
+.content p {
+    width: 270px;
+}
+footer .foottwo p {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 380px;
+}
+footer h1 {
+    width: 460px;
+    font-family: 'gotica';
+    margin-bottom: 10px;
+}
+h1:hover {
+    cursor: copy;
+    opacity: 0.5;
+}
+h2:hover {
+    cursor: pointer;
+    opacity: 0.2;
+}
+.foottwo {
+    margin: 50px;
+}
+header a {
+    list-style: none;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.foottwo {
+    margin-left: 50px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 300px;
+}
+.sobremore {
+    display: inline-flex;
+}
+footer > p {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(0, 13, 255);
+}
+.logo {
+    width: 245px;
+}
+.titulosC {
+    width: 300px;
+}
+.titulosC h2 {
+    margin-top: 10px;
+    margin: 10px;
+}
+.menu {
+    width: 20px;
+}
+.logo {
+    margin-left: 30px;
+}
+.footer img {
+    background-color: aliceblue;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+}
+.footer {
+    width: 1500px;
+    display: inline-block;
+}
+.foottree {
+    margin: auto;
+}
+.textos {
+    width: 903px;
+    margin-top: -15px;
+    border-radius: 0px 0px 10px 10px;
+}
+.sidebar main h2 {
+    text-shadow: 2px 2px 10px black;
+    font-weight: bold;
+    color: brown;
+    font-family: 'gotica';
+    width: 440px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sidebar main h2 p {
+    margin-top: 20px;
+}
+p:hover {
+    cursor: pointer;
+}
+@media (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+}

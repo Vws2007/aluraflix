@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'racionais';
+    src: url('./fontes/CloisterBlack.ttf') format('opentype');
+    font-family: 'gotico';
+    src: url('./fontes/Seagram\ tfb.ttf') format('opentype');
+}
+body {
+    background-image: url(./img/fundo.jpg);
+    background-position: absolut no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    background-color: rgb(3, 0, 0);
+}
+.logo {
+    margin-left: 30px;
+}
+header a {
+    list-style: none;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    cursor: pointer;
+}
+nav {
+    margin-top: -25px;
+    margin-right: 50px;
+    margin: 2.5px, 50px;
+    width: 540px;
+    float: right;
+}
+header nav ul li a{
+    font-family: 'racionais';
+    margin-right: 10px;
+}
+header nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+.header  h1 {
+    font-family: 'racionais';
+    width: 280px;
+}
+header {
+    background-color: rgba(36, 34, 34, 0.589);
+    padding: 5px;
+    width: 940hz;
+    height: 40px;
+}
+.content {
+    backdrop-filter: blur(50px);
+    padding: 15px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    margin: 5px 20% 0px 25%;
+    width: 740px;
+    height: auto;
+}
+
+.content h1 {
+    font-family: 'racionais';
+    width: 740px;
+    text-align: center;
+}
+.content p {
+    margin-top: 10px;
+    text-align: center;
+    width: 740px;
+}
+
+.front {
+    border: 2px solid gray;
+    border-radius: 5px ;
+    width: 1440px;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.front h4 {
+    text-align: center;
+}
+.contentplay {
+    display: inline-flex;
+}
+.curso {
+    padding: 2px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 340px;
+    height: auto;
+    display: inline-block;
+}
+.otavio {
+    padding: 2px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 340px;
+    height: auto;
+    display: inline-block;
+}
+.rbtech {
+    padding: 2px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 340px;
+    height: auto;
+    display: inline-block;
+}
+.chief {
+    padding: 2px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 340px;
+    height: auto;
+    display: inline-block;
+}
+.video {
+    width: 320px;
+    height: 205px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.contentplay div {
+    margin: 0px 5px 0px 5px;
+}
+.contentplay h4 {
+    margin: 5px 0px 10px 0px;
+}
