@@ -1,0 +1,22 @@
+header {
+    background-color: aqua;
+}
+bod
+footer {
+    background-color: chartreuse;
+}
+aside {
+    background-color: blue;
+}
+sidebar {
+    background-color: blueviolet;
+}
+.filmes {
+    border: 15px solid gray;
+    border-radius: 25px;
+    width: 520px;
+    height: auto;
+}
+.videos {
+    display: inline;
+}
